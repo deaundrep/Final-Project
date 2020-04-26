@@ -1,0 +1,46 @@
+h2 {
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    font-size: 50px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 82px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:blue;
+}
+
+img {
+        width: 353px;
+        height: 353px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+body {
+    background-color: black;
+}
