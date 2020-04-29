@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Cable Guy</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="row">
@@ -14,19 +15,21 @@
     <div class="dropdown-content">
         <button onclick="myFunction()"><a href="#">GAME OF THRONES</a>
         </button>
-<div id="myDIV">
+<div id="myDIV" class="bio">
     Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. The show was both produced and filmed in Belfast and elsewhere in the United Kingdom. Filming locations also included Canada, Croatia, Iceland, Malta, Morocco, and Spain.[4] The series premiered on HBO in the United States on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons.
+    <p><a href="https://www.hbo.com/game-of-thrones">Watch trailer here </a></p>
 </div>
-    </div>
+</div>
 </div>
 <div class="dropdown"><
     <button class="dropbtn">STARZ</button>
     <div class="dropdown-content">
         <button onclick="myFunction1()"><a href="#">SPARTACUS</a>
         </button>
-<div id="myDIV1">
+<div id="myDIV1" class="bio">
     Spartacus is an American television series produced in New Zealand that premiered on Starz on January 22, 2010, and concluded on April 12, 2013. The fiction series was inspired by the historical figure of Spartacus, a Thracian gladiator who from 73 to 71 BC led a major slave uprising against the Roman Republic departing from Capua. Executive producers Steven S. DeKnight and Robert Tapert focused on structuring the events of Spartacus' obscure early life leading up to the beginning of historical records
-    </div>
+    <p><a href="https://www.starz.com/us/en/series/5972/episodes?season=1">Watch trailer here </a></p>
+</div>
 </div>
 </div>
     <div class="dropdown">
@@ -34,27 +37,49 @@
     <div class="dropdown-content">
         <button onclick="myFunction2()"><a href="#">BILLIONS</a>
         </button>
-<div id="myDIV2">
+<div id="myDIV2" class="bio">
     Billions is an American television drama series created by Brian Koppelman, David Levien, and Andrew Ross Sorkin, starring Paul Giamatti and Damian Lewis, that premiered on Showtime on January 17, 2016. The series is loosely based on the activities of Preet Bharara, the former U.S. Attorney for the Southern District of New York,[1][2] and his legal battles with hedge fund manager Steve Cohen of S.A.C. Capital Advisors.[3] In season two, it also incorporates loosely the cases involving Treasury bond auction market manipulation conduct of Salomon Brothers, including the roles of CEO John Gutfreund and bond trader Paul Mozer, in 1991. Four seasons of Billions have aired.[4][5] On May 8, 2019, the series was renewed for a fifth season which is set to premiere on May 3, 2020.
+    <p><a href="https://www.sho.com/billions">Watch trailer here </a></p>
     </div>
     </div>
     </div>
     <div class="dropdown">
     <button class="dropbtn">CINEMAX</button>
     <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+        <button onclick="myFunction3()"><a href="#">WARRIOR</a>
+        </button>
+<div id="myDIV3" class="bio">
+    Warrior is an American action-drama television series, executive-produced by Shannon Lee and Justin Lin, that premiered on April 5, 2019, on Cinemax.[1][2] It is based on an original concept and treatment by Bruce Lee.
+    <p><a href="https://www.cinemax.com/warrior">Watch trailer here </a></p>
     </div>
     </div>
     </div>
 
     <section id="row">
-        <img id="HBO" src="hbo.jpeg">
-        <img id="STARS" src="starz.jpeg">
+        <img id="HBO" src="hbolo.jpeg">
+        <img id="STARS" src="starzlo.jpeg">
         <img id="SHOWTIME" src="showtime.jpeg">
         <img id="CINEMAX" src="cinemax.jpeg">
         </section>
+        
+        <h1>Show Rater</h1>
+<fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+
+
+
+        
+
 
 
         <script src="main.js"></script>    
